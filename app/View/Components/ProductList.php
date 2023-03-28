@@ -6,14 +6,18 @@ use Illuminate\View\Component;
 
 class ProductList extends Component
 {
+    public $admin;
+    public $products;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($products, $admin)
     {
-        //
+        $this->products = $products;
+        $this->admin = $admin;
+
     }
 
     /**

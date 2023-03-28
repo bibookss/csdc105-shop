@@ -22,6 +22,5 @@ class ProductSeeder extends Seeder
                 'img' => 'fab.png'
             ]
         );
-
     }
 }
